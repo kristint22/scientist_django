@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Physics</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'scientists/site.css' %}"/>
+</head>
+
+<body>
+<div class="navbar">
+    <a href="{% url 'science' %}" class="navbar-brand">Home</a>
+    <a href="{% url 'physics' %}" class="navbar-item">Physics</a>
+    <a href="{% url 'chemistry' %}" class="navbar-item">Chemistry</a>
+</div>
+
+<div class="body-content">
+    <h1 style ="color: #7a9cc6 ;">Physics</h1>
+    <h2 style ="color: #9fbbcc;" >What is physics?</h2>
+    <p style=" color: #b3d2b2;">Britannica defines physics as "is the branch of science that deals with the structure of matter 
+        and how the fundamental constituents of the universe interact. It studies objects ranging from 
+        the very small using quantum mechanics to the entires universe using general relativity"</p>
+
+    <br>
+    <p style=" color: #b3d2b2;">Simply put, Physics studies how everything works together. They study gravity, motion, energy, force. </p>
+    <br>
+    <h2 style ="color: #9fbbcc;">Famous Physicists</h2>
+    <ul>
+        <li style ="color: #D0ECC1;">Albert Einstein</li>
+        <li style ="color: #D0ECC1;">Niels  Bohr</li>
+        <li style ="color: #D0ECC1;">Ernest Rutherford</li>
+        <li style ="color: #D0ECC1;">Galileo Galilei</li>
+        <li style ="color: #D0ECC1;">Dorothy Hodgkin</li>
+        <li style ="color: #D0ECC1;">Ida Noddack</li>
+        <li style ="color: #D0ECC1;">Marietta  Blau</li>
+    </ul>
+    
+    <hr/>
+    <footer>
+        
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>science</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'scientists/site.css' %}"/>
+</head>
+
+<body>
+<div class="navbar">
+    <a href="{% url 'science' %}" class="navbar-brand">Home</a>
+    <a href="{% url 'physics' %}" class="navbar-item">Physics</a>
+    <a href="{% url 'chemistry' %}" class="navbar-item">Chemistry</a>
+</div>
+
+<div class="body-content">
+    <h1 style ="color: #7a9cc6 ; ">Science</h1>
+    <h2 style ="color: #9fbbcc;" >What is science?</h2>
+    <p style=" color: #b3d2b2;">Science is the systematic study of the structure and behavior of the physical and natural world. 
+        This is done through observing, experimenting, and testing theroies against evidence that we have. </p>
+    <br>
+    <p style=" color: #b3d2b2;">I like to think that is science is a systematic way to figure out mysteries and understand the world around us, 
+        and therefore understand ourselves better as well.</p>
+    <p style=" color: #b3d2b2;"> Today you are going to experience the world of Chemistry and Physics!</p>
+    <hr/>
+    <footer>
+        
+        
+    </footer>
+</div>
+</body>
+</html>

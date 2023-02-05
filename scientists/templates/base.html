@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>{% block title %}{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'scientists/site.css' %}"/>
+</head>
+
+<body>
+<div class="navbar">
+    <a href="{% url 'science' %}" class="navbar-brand">Home</a>
+    <a href="{% url 'physics' %}" class="navbar-item">Physics</a>
+    <a href="{% url 'chemistry' %}" class="navbar-item">Chemistry</a>
+</div>
+
+<div class="body-content">
+    {% block content %}
+    {% endblock %}
+    <hr/>
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+</div>
+</body>
+</html>

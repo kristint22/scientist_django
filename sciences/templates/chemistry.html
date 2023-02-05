@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>science</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'scientists/site.css' %}"/>
+</head>
+
+<body>
+<div class="navbar">
+    <a href="{% url 'science' %}" class="navbar-brand">Home</a>
+    <a href="{% url 'physics' %}" class="navbar-item">Physics</a>
+    <a href="{% url 'chemistry' %}" class="navbar-item">Chemistry</a>
+</div>
+
+<div class="body-content">
+    <h1 style ="color: #7a9cc6 ;">Chemistry</h1>
+    <h2 style ="color: #9fbbcc;" >What is chemistry?</h2>
+    <p style=" color: #b3d2b2;">Chemistry is defined "as a branch of science that deals the identification of the substances of which
+        matter is composed; the investigation of their properties and the ways in which they interact,combine, and change; 
+        and the these processes to form new substances."" </p>
+    <br>
+    <p style=" color: #b3d2b2;">I like to think of chemistry as studying to learn about matter, what their special attributes allow them 
+        to do and why it works that way. </p>
+    <h2 style ="color: #9fbbcc;">Famous Chemists</h2>
+        <ul>
+        <li style ="color: #D0ECC1;">Antonie Lavoisier</li>
+        <li style ="color: #D0ECC1;">Marie  Curie</li>
+        <li style ="color: #D0ECC1;">Alfred Noble</li>
+        <li style ="color: #D0ECC1;">Robert Bunsen</li>
+        <li style ="color: #D0ECC1;">Dorothy Hodgkin</li>
+        <li style ="color: #D0ECC1;">Amedeo Avogadro</li>
+        <li style ="color: #D0ECC1;">Robert  Boyle</li>
+    </ul>
+        
+    <hr/>
+    <footer>
+    </footer>
+</div>
+</body>
+</html>

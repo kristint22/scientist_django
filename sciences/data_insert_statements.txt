@@ -1,0 +1,31 @@
+Inserts for when in the django shell
+
+for the science table
+c = Science(name = 'Chemistry')
+c.save()
+
+p = Science(name = 'Physics')
+p.save()
+
+For the person table
+p1 = Person(fname = 'albert', lname = 'einstein', gender = 'm', science = 'Physics')
+p1.save()
+p2 = Person(fname = 'marie', lname = 'curie', gender = 'f', science = '2')
+p2.save()
+p3 = Person(fname = 'ernest', lname = 'rutherford', gender = 'm', science = '2')
+p3.save()
+p4 = Person(fname = 'lise', lname = 'meitner', gender = 'f', science = '2')
+p4.save()
+p5 = Person(fname = 'issac', lname = 'newton', gender = 'm', science = '2')
+p5.save()
+
+c1 = Person(fname = 'alfred', lname = 'noble', gender = 'm', science = '1')
+c1.save()
+c2 = Person(fname = 'dorothy', lname = 'hodgkin', gender = 'f', science = '1')
+c2.save()
+c3 = Person(fname = 'robert', lname = 'bunsen', gender = 'm', science = '1')
+c3.save()
+c4 = Person(fname = 'stephanie', lname = 'kwolek', gender = 'f', science = '1')
+c4.save()
+c5 = Person(fname = 'amedeo', lname = 'avogadro', gender = 'm', science = '1')
+c5.save()
