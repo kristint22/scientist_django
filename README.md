@@ -8,9 +8,8 @@ This web application combines python and HTML to deliver a website to show famou
 
 My purpose was to learn something new and to understand how to make a more dynamic page that works with a server that django uses. 
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Scientist Django Video](https://youtu.be/-A9m2t6ENyI)
 
 # Web Pages
 
